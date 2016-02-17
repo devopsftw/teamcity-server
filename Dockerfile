@@ -8,7 +8,7 @@ MAINTAINER Danila Shtan <dan@e96.ru>
 VOLUME  ["/data/teamcity"]
 ENV TEAMCITY_DATA_PATH /data/teamcity
 
-ENV TEAMCITY_DIST TeamCity-9.0.4.tar.gz
+ENV TEAMCITY_DIST TeamCity-9.1.6.tar.gz
 
 RUN wget http://download.jetbrains.com/teamcity/$TEAMCITY_DIST && \
     tar zxf $TEAMCITY_DIST -C /opt && \
